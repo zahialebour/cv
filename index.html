@@ -1,125 +1,139 @@
 <!DOCTYPE html>
-<html>
-	<head> <meta charset="UTF-8">
-		<titre>Curriculum Vitae</titre>
-				<h1>A la recherche d'un stage de fin d'étude<h1>
+<html lang="en">
+	<head> 
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href = "cv.css" type ="text/css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script type = "text/javascript" src = "script-cv.js" ></script>
+	<title>CV - Zahia Lebour</title>
+				
 	</head>
 	<body>
-		<div>
-			<div>
-				<h1>Etat Civil</h1>
-				<h3>Zahia Lebour</h3>
-				<h5>145 rue Jean Jaures, 69007 Lyon</h5>
-				<h5>Tél: 0610038642</h5>
-				<h5>Mail : lebourzahia@gmail.com</h5>	
-			</div>
-			<div>
-				<img src="photo.png" alt="photo Zahia Lebour"/>
-			</div>
-		</div>
 		
-		
-		<div>
-			<h1>Formations</h1>
-		
-			<div>
-				<p>2018-2019<br/>Lyon-France</p>
-				<p>2017-2018<br/>Reims-France</p>
-				<p>2016-2017<br/>Reims-France</p>
-				<p>2014-2015<br/>Tizi-Ouzou-Algérie</p>
-				<p>2006-2011<br/>Tizi-Ouzou-Algérie</p>
-			</div>
-			<div>
-				<p>Master 2 Compétences Complémentaires en Informatique<br/><a href="https://www.univ-lyon1.fr">Université Lyon 1</a></p>
-				<p>Master 2 Production des Agro-ressources et Développement Durable<br/><a href="https://www.univ-reims.fr">Université de Reims Champagne Ardenne</a></p>
-				<p>Master 1 Production et Valorisation des Agro-ressources<br/><a href="https://www.univ-reims.fr">Université de Reims Champagne Ardenne</a></p>
-				<p>Certificat d’Hygiène et sécurité de l’environnement<br/>LEA SCHOOL</p>
-				<p>Ingénieure en Sciences Agronomiques Option Technologie Alimentaire<br/>Université Mouloud Mammeri</p>
-				
-			</div>
-			
-		</div>
-		
-		<div>
-			<h1>Expériences professionnelles</h1>
-		
-			<div>
-				<p>Mars 2018-Août 2018<br/>Angers-France</p>
-				<p>Avril 2017-Septembre 2017<br/>Beaucouzé-France</p>
-				<p>Mars 2015-Mai 2016<br/>Tizi-Ouzou-Algérie</p>
-				<p>Mars 2012-Septembre 2014<br/>Tizi-Ouzou-Algérie</p>
-			</div>
-			<div>
-				<p><a href="https://www.geves.fr">Laboratoire de Pathologie du GEVES</a><br/>Stage sur la mise au point du pathosystème Ustilago nuda sur orge</p>
-				<p><a href="www.agrobioperigord.fr">Association AgroBio Périgord</a><br/>Stage sur les essais de moyens de lutte alternatifs contre eudémis en testant l’efficacité de l’argile kaolinite calcinée</p>
-				<p>SARL NADJI BATI EQUIPEMENTS<br/>Assistante commerciale</p>
-				<p>Minoterie SARL MINOSEB<br/>Laborantine</p>
-				
-			</div>
-			
-		</div>
-		
-		
-		<div>
-			<h1>Compétences</h1>
-		
-			<div>
-				<h3>En informatique</h3>
-				
-				<p>UML</p>
-				<p>Base de données : Oracle, SQL</p>
-				<p>Langage de programmation : Shell, C, Java</p>
-				<p>Systèmes d'exploitation: Unix, MacOS X, GNU/LUbuntu</p>
-				<p>Internet : http, XML, HTML</p>
-				<p>Cloud Computing : IaaS, SaaS, PaaS</p>
-				<cp>ERP (SAP)</cp>
-				
-			</div>
-			
-			<div>
-				<h3>En biologie</h3>
-				<p>HPLC,UPLC,CPG</p>
-				<p>Biologie moléculaire</p>
-				<p>Biotechnologie végétale</p>
-				<p>Electrophorèse,PCR,qPCR</p>
-				<p>Phytopathologie</p>
+		<input id="progress_bar" class="mdl-slider__container" type="range" min="0" max="100" value="0" tabindex="0" oninput="myScroll()">		
+		<br>
+		<h1><em>Curriculum Vitae</em><br>A la recherche d'un stage de fin d'étude</h1>		
+		<div class="page">
+			<div class="etatcivil_photo">
+				<h2>Etat Civil</h2>
+				<div class=" etatcivil">
 					
+					<p>
+						<Strong>Zahia Lebour</Strong><br>
+						145 rue Jean Jaures, 69007 Lyon<br>
+						Tél: 0610038642<br>
+						Mail : lebourzahia@gmail.com
+					</p>
+				</div>
+
+				<div class= "photo">
+					<img src="photo.png" alt="photo Zahia Lebour"/>
+				</div>
 			</div>
-			
-		</div>
-		
-		
-		
-		
-		<div>
-			<h1>Langues</h1>
-		
-			<div>
-				<p>Français</p>
-				<p>Anglais</p>
-				<p>Arabe</p>
-				<p>Kabyle</p>
+			<h2>Formations</h2>
+			<div class= "formations">
 				
+				<div class = "section gauche">
+					
+					<p><strong>2018-2019<br/>Lyon-France</p></strong><br>
+					<p><strong>2017-2018<br/>Reims-France</p></strong><br>
+					<p><strong>2016-2017<br/>Reims-France</p></strong><br>
+					<p><strong>2014-2015<br/>Tizi-Ouzou-Algérie</p></strong><br>
+					<p><strong>2006-2011<br/>Tizi-Ouzou-Algérie</p></strong><br>
+					
+				</div>
+				<div class = "section_droite">
+					<p>Master 2 Compétences Complémentaires en Informatique<br/><a href="https://www.univ-lyon1.fr" title="Université Lyon 1" target="_blank" >Université Lyon 1</a></p>
+					<br>
+					<p>Master 2 Production des Agro-ressources et Développement Durable<br/><a href="https://www.univ-reims.fr" title="Université de Reims Champagne Ardenne" target="_blank" >Université de Reims Champagne Ardenne</a></p>
+					<br>
+					<p>Master 1 Production et Valorisation des Agro-ressources<br/><a href="https://www.univ-reims.fr" title="Université de Reims Champagne Ardenne" target="_blank" >Université de Reims Champagne Ardenne</a></p>
+					<br>
+					<p>Certificat d’Hygiène et sécurité de l’environnement<br/><a href="http://www.pagesjaunes-dz.com/companies/detail/36aa222e319052a3181d214a2b0c30bd/-lea-school" title="LEA SCHOOL" target="_blank" >LEA SCHOOL</a></p>
+					<br>
+					<p>Ingénieure en Sciences Agronomiques Option Technologie Alimentaire<br/><a href="www.ummto.dz" title="Université Mouloud Mammeri" target="_blank" >Université Mouloud Mammeri</a></p>
+				</div>
 			</div>
-			<div>
-				<p>Avancé</p>
-				<p>Professionnel</p>
-				<p>Avancé</p>
-				<p>Maternelle</p>
+
+			<h2>Expériences professionnelles</h2>
+			<div class="experiences_professionnelles">
+				<div class = "section gauche">
+					<p><strong>Mars 2018-Août 2018<br/>Angers-France</strong></p>
+					<p><strong>Avril 2017-Septembre 2017<br/>Beaucouzé-France</strong></p>
+					<p><strong>Mars 2015-Mai 2016<br/>Tizi-Ouzou-Algérie</strong></p>
+					<p><strong>Mars 2012-Septembre 2014<br/>Tizi-Ouzou-Algérie</strong></p>
+				</div>
+				<div class = "section droite">
+					<p><a href="https://www.geves.fr" title "page introuvable">Laboratoire de Pathologie du GEVES</a><br/>Stage sur la mise au  point du pathosystème Ustilago nuda sur orge</p>
+					<p><a href="www.agrobioperigord.fr" title "page introuvable">Association AgroBio Périgord</a><br/>Stage sur les essais de moyens de lutte alternatifs contre eudémis en testant <br> l’efficacité de l’argile kaolinite calcinée</p>
+					<p><a href= "http://www.pagesjaunes-dz.com/companies/detail/605e918974792ae8a8033d556324c5c6/-nadji-bati-equipement-sarl" title "page introuvable">SARL NADJI BATI EQUIPEMENTS</a><br/>Assistante commerciale</p>
+					<p><a href="https://www.lespagesmaghreb.com/tizi-ouzou/minoteries-meuneries/minoseb/8ce71b37355bfc1a3241010bbc7f59c12a714ddf" title "page introuvale">Minoterie SARL MINOSEB</a><br/>Laborantine</p>
+				</div>
+			</div>
+
+			<h2>Compétences</h2>
+			<div class="competences">
 				
+				<div class = "section gauche">
+					<h3>En informatique</h3>
+					<ul>
+						<li><p>UML</p></li>
+						<li><p>Base de données : Oracle, SQL</p></li>
+						<li><p>Langage de programmation : Shell, C, Java</p></li>
+						<li><p>Systèmes d'exploitation: Unix, MacOS X, GNU/Ubuntu</p></li>
+						<li><p>Internet : http, XML, HTML</p></li>
+						<li><p>Cloud Computing : IaaS, SaaS, PaaS</p></li>
+						<li><p>ERP (SAP)</p></li>
+					</ul>
+				</div>
+				<div class = "section droite">
+					<h3>En biologie</h3>
+					<ul>
+						<li><p>HPLC,UPLC,CPG</p></li>
+						<li><p>Biologie moléculaire</p></li>
+						<li><p>Biotechnologie végétale</p></li>
+						<li><p>Electrophorèse,PCR,qPCR</p></li>
+						<li><p>Phytopathologie</p></li>
+					</ul>	
+				</div>
 			</div>
-			
-		</div>
-		
-		<div>
-			<h1>Centres d'interet</h1>
-		
-			<div>
-				<p>Bénévolat (Association Big Heart)</p>
-				<p>Sport</p>
-				<p>Voyage</p>
+			<h2>Langues</h2>
+			<div class="langues">
 				
+				<div class = "section gauche">
+					<ul>
+						<li><p><strong>Français</strong></p></li>
+						<li><p><strong>Anglais</strong></p></li>
+						<li><p><strong>Arabe</strong></p></li>
+						<li><p><strong>Kabyle</strong></p></li>
+					</ul>
+				</div>
+				<div class = "section droite">
+					<p>Avancé</p>
+					<p>Professionnel</p>
+					<p>Avancé</p>
+					<p>Maternelle</p>
+				</div>
 			</div>
-		
+			<div class="centreinteret">
+				<h2>Centres d'interet</h2>
+				<div>
+					<ul>
+						<li><p>Bénévolat (Association Big Heart)</p></li>
+						<li><p>Sport</p></li>
+						<li><p>Voyage</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
 	</body>
 </html>
+
+
+
+
+
