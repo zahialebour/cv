@@ -1,0 +1,72 @@
+body {
+background-color : grey;
+}
+.page {
+	margin : auto;
+	width : 1000px;
+	font-size : 16px;
+	border : 1px solid #000000;
+	border-radius : 10px;
+	background-color : white;
+	padding-bottom: 5px;
+}
+
+.etatcivil_photo
+{
+	position: relative;
+}
+.etatcivil
+{
+	margin:30px;
+}
+
+
+.photo
+{
+	position: absolute;
+	right: 20px;
+	top: 60px;
+}
+.formations
+{
+	display: flex;
+	justify-content: space-around;
+	}
+.experiences_professionnelles
+{
+	display: flex;
+	justify-content: space-around;
+}
+.competences
+{
+	display: flex;
+	justify-content: space-around;
+}
+.langues
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+h1 {font-family: Arial; font-style: italic;
+	text-align: center;}
+
+h2 {
+	font-size : 10px;
+	margin: 20px;
+	color : #000080;
+	text-transform : uppercase;
+	border-bottom : 2px solid #000080;
+}
+h3 {
+	Color: #800000;
+}
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
